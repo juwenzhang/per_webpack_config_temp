@@ -1,0 +1,42 @@
+{
+  "name": "juwenzhang_webpack_loader_demo",
+  "version": "1.0.4",
+  "main": "index.js",
+  "scripts": {
+    "test_build": "npx webpack --config configs/webpack.test.config.cjs",
+    "test_dev": "npx webpack serve --config configs/webpack.test.config.cjs",
+    "build": "npx webpack --config configs/webpack.prod.config.cjs",
+    "serve": "npx webpack serve --config configs/webpack.dev.config.cjs"
+  },
+  "keywords": [
+    "demo_loader",
+    "loader",
+    "juwenzhang"
+  ],
+  "author": "juwenzhang",
+  "license": "MIT",
+  "description": "a demo_loader",
+  "devDependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.25.9",
+    "@babel/plugin-transform-block-scoping": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "less-loader": "^12.2.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.1",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "vue-loader": "^17.4.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  }
+}

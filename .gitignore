@@ -1,0 +1,7 @@
+.idea
+.dist
+my_dist
+node_modules
+my_test_dist
+my_dev_dist
+my_prod_dist

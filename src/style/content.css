@@ -1,0 +1,10 @@
+.content {
+  font-size: 30px;
+  color: aqua;
+  user-select: none;
+}
+.bgImg {
+  background-image: url("../img/juwenzhang.jpg");
+  user-select: none;
+}
+/*# sourceMappingURL=content.css.map */

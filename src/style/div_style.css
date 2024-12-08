@@ -1,0 +1,16 @@
+.container {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+:root {
+    overflow: hidden;
+    body, div {
+        padding: 0;
+        margin: 0;
+    }
+}
